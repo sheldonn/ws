@@ -1,0 +1,164 @@
+/**
+ * @file
+ * Node Styling
+ *
+ * Style anything that isn't in the $content variable.
+ */
+
+
+.node /* Node wrapper */ {
+}
+
+.preview .node /* Preview of the content before submitting new or updated content */ {
+  /* background-color: #ffffea; */ /* Drupal core uses a #ffffea background */
+}
+
+.node-promoted /* A node that has been promoted to the front page */ {
+}
+
+.node-sticky /* A sticky node (displayed before others in a list) */ {
+}
+
+.node-unpublished /* Unpublished nodes */ {
+  /* background-color: #fff4f4; */ /* Drupal core uses a #fff4f4 background */
+}
+
+.node-unpublished div.unpublished,
+.comment-unpublished div.unpublished /* The word "Unpublished" displayed underneath the content. */ {
+  height: 0;
+  overflow: visible;
+  color: #d8d8d8;
+  font-size: 75px;
+  line-height: 1;
+  font-family: Impact, "Arial Narrow", Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  word-wrap: break-word; /* A very nice CSS3 property */
+}
+
+.node-by-viewer /* A node created by the current user */ {
+}
+
+.node-teaser /* A node displayed as teaser */ {
+}
+
+/* All nodes are given a node-FOO class that describes the type of content that
+ * it is. If you create a new content type called "my-custom-type", it will
+ * receive a "node-my-custom-type" class.
+ */
+.node-page /* Page content node */ {
+}
+
+.node-article /* Article content node */ {
+}
+
+h2.node-title /* Node title */ {
+}
+
+.node .user-picture /* The picture of the node author */ {
+}
+
+.node .submitted /* The "posted by" information */ {
+}
+
+.node .content /* Node's content wrapper */ {
+}
+
+.node ul.links /* Node links. See also the ul.links declaration in the pages.css. */ {
+}
+
+#top-wrap{
+	padding: 0 15px;
+	border-right: 1px solid #CCC;
+	width: 670px;
+}
+
+.title{
+	font-size: 20px;
+	line-height: 25px;
+}
+
+#show{
+	height: 400px;
+	text-align: center;
+	line-height: 400px;
+	padding: 10px 0;
+}
+
+.node-type-clothing #show{
+	margin-right: 240px;
+}
+
+#show img{
+	max-height: 90%;
+	max-width: 90%;
+	vertical-align: middle;
+}
+
+.prod-similar{
+	float: right;
+	width: 250px;
+	padding-right: 10px;
+}
+
+.prod-similar .block-title{
+	line-height: 25px;
+	padding-bottom: 20px;
+	font-size: 17px
+}
+
+.prod-similar .view-content{
+	text-align: center;
+}
+
+.prod-similar .view-content .views-row{
+	padding-bottom: 25px;
+}
+
+/* contact */
+#go-right{
+	float: right;
+}
+
+#map{
+	border: 1px solid #CCC;
+	width: 480px;
+	height: 300px;
+}
+
+#node-2 .field-name-body.clearfix::after {
+	display: none;
+}
+
+#webform-client-form-2{
+	width: 420px;
+}
+
+#webform-client-form-2 input.form-text {
+	margin: 0;
+	width: 408px;
+}
+
+#webform-client-form-2 .form-textarea{
+	height: 122px;
+}
+
+#webform-client-form-2 .form-actions{
+	margin: 0;
+}
+
+#webform-client-form-2 input[type=submit]{
+	width: 100%;
+	font-size: 22px;
+	padding: 10px 0;
+}
+
+input[type=submit]{
+	color: #FFF;
+	background: #025394;
+	border: 1px solid #025394;
+	margin: 0;
+	padding: 3px 0 4px 0;
+	font-style: italic;
+}

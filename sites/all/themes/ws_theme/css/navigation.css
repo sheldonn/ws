@@ -1,0 +1,114 @@
+/**
+ * @file
+ * Navigation Styling
+ */
+
+
+/*
+ * The active item in a Drupal menu
+ */
+li a.active {
+  color: #000;
+}
+
+/*
+ * Navigation bar
+ */
+#navigation {
+  /* overflow: hidden; /* Sometimes you want to prevent overlapping with main div. */
+  border-bottom: 1px solid #CCC;
+}
+
+#navigation ul.links, /* Main menu and secondary menu links */
+#navigation .content ul /* Menu block links */ {
+  margin: 0;
+  padding: 0;
+  text-align: left; /* LTR */
+}
+
+#navigation ul.links li, /* A simple method to get navigation links to appear in one line. */
+#navigation .content li {
+  float: left; /* LTR */
+  padding: 0 10px 0 0; /* LTR */
+}
+
+.region-navigation {
+}
+
+/*
+ * Main menu and Secondary menu links
+ */
+#main-menu {
+}
+
+#secondary-menu {
+  float: right;
+  margin: 0;
+}
+
+/*
+ * Menu blocks
+ */
+.block-menu {
+}
+
+/*
+ * "Menu block" blocks
+ *
+ * Drupal core has limited ways in which it can display its menus. To get around
+ * these limitations, see http://drupal.org/project/menu_block
+ */
+.block-menu-block {
+}
+
+#header #block-menu-menu-primary-links{
+	position: absolute;
+	right: 15px;
+	top: 60px;
+	margin: 0;
+}
+
+#header .menu,
+#block-menu-menu-primary-links .menu{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+#block-menu-menu-primary-links{
+	margin: 0;
+}
+
+#header .menu li{
+	float: left;
+	list-style: none;
+	margin-left: 1em;
+}
+
+#header .menu li a{
+	font-size: 17px;
+}
+
+#navigation #block-menu-menu-primary-links .menu li {
+	line-height: 3em;
+	list-style: none;
+	padding: 0;
+}
+
+#navigation #block-menu-menu-primary-links .menu li.last {
+	border-right: 0 none;
+	padding-right: 0px;
+	margin-right: 0px;
+}
+
+#navigation #block-menu-menu-primary-links .menu li a{
+	color: #FFF;
+	font-weight: bold;
+	text-transform: uppercase;
+	display: block;
+	padding: 0 30px;
+	font-style: italic;
+}
+
+#navigation #block-menu-menu-primary-links .menu li a.active-trail{
+}

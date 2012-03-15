@@ -1,0 +1,210 @@
+/**
+ * @file
+ * Field Styling
+ */
+
+
+.field /* Wrapper for any field. */ {
+}
+
+/*
+ * Field types (Core)
+ */
+.field-type-text {
+}
+
+.field-type-text-long {
+}
+
+.field-type-text-with-summary {
+}
+
+.field-type-image {
+}
+
+.field-type-file {
+}
+
+.field-type-taxonomy-term-reference {
+}
+
+.field-type-number-integer {
+}
+
+.field-type-number-decimal {
+}
+
+.field-type-number-float {
+}
+
+.field-type-list-text {
+}
+
+.field-type-list-boolean {
+}
+
+.field-type-list-integer {
+}
+
+.field-type-list-float {
+}
+
+/*
+ * Field types (Contrib)
+ */
+.field-type-datetime /* Always use "datetime" when creating new CCK date fields. "date" and "datestamp" are legacy types. */ {
+}
+
+.field-type-node-reference {
+}
+
+.field-type-user-reference {
+}
+
+
+/*
+ * Named fields
+ */
+.field-name-body {
+}
+
+.field-name-field-image {
+}
+
+.field-name-field-tags {
+}
+
+.field-name-field-FIELDNAME /* Underscores in field name are replaced with dashes. */ {
+}
+
+.prod-sec-bottom{
+	/*padding: 25px 20px 0 15px;*/
+	padding: 25px 0 0 15px;
+	background: url(../images/shadow.gif) center top no-repeat;
+}
+
+.node-type-accessory .prod-image,
+.node-type-shoe .prod-image{
+	border-top: 1px solid #CCC;
+	padding: 0 15px;
+}
+
+.node-type-clothing .prod-image{
+	float: right;
+	width: 220px;
+}
+
+.field-name-field-prod-image .field-item{
+	padding: 3px 0px;
+	float: left;
+	height: 180px;
+	line-height: 180px;
+	text-align: center;
+}
+
+.node-type-accessory .field-name-field-prod-image .field-item,
+.node-type-shoe .field-name-field-prod-image .field-item{
+	width: 237px;
+}
+
+.node-type-clothing .field-name-field-prod-image .field-item{
+	width: 110px;
+}
+
+.field-name-field-prod-image .field-item img{
+	vertical-align: middle;
+}
+
+.prod-meta{
+	float: left;
+	width: 210px;
+	padding-right: 20px;
+}
+
+.prod-content{
+	margin-left: 260px;
+	margin-right: 20px;
+}
+
+.jScrollPaneContainer{
+	margin-right: 20px;
+}
+
+.prod-content p:first-child{
+	margin-top: 0;
+}
+
+.prod-content .field-name-body .field-item{
+	overflow: auto;
+	height: 310px;
+}
+
+.prod-share{
+	padding: 10px 0;
+}
+
+/*//////////////////////////*/
+.jScrollPaneContainer {
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+}
+
+.jScrollPaneTrack {
+	position: absolute;
+	cursor: pointer;
+	right: 0;
+	top: 0;
+	height: 100%;
+	background: #CCC;
+}
+.jScrollPaneDrag {
+	position: absolute;
+	background: #555;
+	cursor: pointer;
+	overflow: hidden;
+}
+.jScrollPaneDragTop {
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+.jScrollPaneDragBottom {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+}
+a.jScrollArrowUp {
+	display: block;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	right: 0;
+	text-indent: -2000px;
+	overflow: hidden;
+	/*background-color: #666;*/
+	height: 9px;
+}
+a.jScrollArrowUp:hover {
+	/*background-color: #f60;*/
+}
+
+a.jScrollArrowDown {
+	display: block;
+	position: absolute;
+	z-index: 1;
+	bottom: 0;
+	right: 0;
+	text-indent: -2000px;
+	overflow: hidden;
+	/*background-color: #666;*/
+	height: 9px;
+}
+a.jScrollArrowDown:hover {
+	/*background-color: #f60;*/
+}
+a.jScrollActiveArrowButton, a.jScrollActiveArrowButton:hover {
+	/*background-color: #f00;*/
+}

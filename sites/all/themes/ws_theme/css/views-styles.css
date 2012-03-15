@@ -1,0 +1,36 @@
+/**
+ * @file
+ * Views Styling
+ */
+
+.view-footwear table{
+	width: 100%;
+}
+
+.view-footwear table td{
+	width: 33%;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.view-footwear div.fivestar-widget .cancel,
+.view-footwear div.fivestar-widget .star,
+.view-footwear div.fivestar-widget-static .star{
+	float: none;
+	display: inline-block;
+}
+
+.views_slideshow_slide{
+	text-align: center;
+	width: 980px;
+}
+
+/** news */
+.view-news .views-row{
+	margin-bottom: 20px;
+	border-bottom: 1px dashed #CCC;
+}
+
+.view-news .views-row-last{
+	border-bottom: 0 none;
+}
