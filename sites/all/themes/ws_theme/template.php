@@ -85,8 +85,10 @@ function ws_theme_preprocess_html(&$variables, $hook) {
  * @param $hook
  *   The name of the template being rendered ("page" in this case.)
  */
-/* -- Delete this line if you want to use this function
+/* -- Delete this line if you want to use this function */
 function ws_theme_preprocess_page(&$variables, $hook) {
+  drupal_add_library('system', 'ui.draggable');
+  drupal_add_library('libraries', 'jquery.cycle.all.js');
   $variables['sample_variable'] = t('Lorem ipsum.');
 }
 // */

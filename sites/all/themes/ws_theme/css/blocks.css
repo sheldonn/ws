@@ -8,6 +8,7 @@
   margin-bottom: 1.5em;
 }
 
+#navigation .block,
 .region-highlighted .block,
 .region-footer .block /* Block wrapper */ {
   margin-bottom: 0;
@@ -80,10 +81,10 @@ h2.block-title /* Block title */ {
 }
 
 #block-search-form .form-text{
-	width: 253px;
-	min-width: 253px;
-	max-width: 253px;
-	padding-right: 55px;
+	width: 250px;
+	min-width: 250px;
+	max-width: 250px;
+	padding-right: 65px;
 }
 
 #block-search-form .container-inline{
@@ -95,6 +96,12 @@ h2.block-title /* Block title */ {
 	position: absolute;
 	top: 3px;
 	right: 4px;
+	height: 28px;
+	width: 55px;
+	line-height: 28px;
+	vertical-align: middle;
+	text-align: center;
+	padding: 0;
 }
 
 #block-shortcut-shortcuts /* "Shortcuts" block */ {

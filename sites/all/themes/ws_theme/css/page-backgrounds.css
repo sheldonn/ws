@@ -11,23 +11,24 @@
 
 
 body {
-	/*background: #EEE;*/
+	background: #EEE;
 }
 
 #page-wrapper{
-	background: #FFF;
-	border: 1px solid #CCC;
+	border: 1px solid #DDD;
 	border-radius: 2px;
 
-	box-shadow: 0 0 15px #DDD;
-	-moz-box-shadow: 0 0 15px #DDD;
-	-webkit-box-shadow: 0 0 15px #DDD;
+	box-shadow: 0 0 10px #DDD;
+	-moz-box-shadow: 0 0 10px #DDD;
+	-webkit-box-shadow: 0 0 10px #DDD;
+	/*overflow: hidden;*/
 }
 
 #page {
 }
 
 #header {
+	background: url(../images/glass.png) center top repeat-x;
 }
 
 #header .section {
@@ -38,12 +39,14 @@ body {
 }
 
 #main-wrapper {
+	background: #FFF;
 }
 
 #main {
 }
 
 #footer{
+	background: #FFF;
 }
 
 .region-footer {

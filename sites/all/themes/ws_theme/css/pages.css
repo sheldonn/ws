@@ -114,6 +114,12 @@ div#site-name /* The name of the website */ {
 	border-bottom: 1px solid #CCC;
 }
 
+.region-advert{
+	width: 270px;
+	float: right;
+	overflow: hidden;
+}
+
 .breadcrumb /* The path to the current page in the form of a list of links */ {
 	padding: 0 15px; /* Undo system.css */
 	line-height: 30px;
@@ -176,7 +182,7 @@ div.tabs /* See also the tabs.css file. */ {
 .more-help-link /* Link to more help */ {
 }
 
-.front .region-content /* Wrapper for the actual page content */,
+.region-content /* Wrapper for the actual page content ,
 .node-type-webform .region-content,
 .node-type-article .region-content,
 .node-type-page .region-content,
@@ -186,6 +192,10 @@ div.tabs /* See also the tabs.css file. */ {
 
 .front .region-content {
 	padding: 30px;
+}
+
+.product-class .region-content {
+	padding: 0;
 }
 
 .front .region-content .node{

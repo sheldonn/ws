@@ -140,6 +140,7 @@ input[type=email],
 input[type=text],
 input[type=password],
 textarea{
+	background: #FFF;
 	border: 1px solid #E4E4E4;
 	color: #7F7F7F;
 	font-size: 13px;

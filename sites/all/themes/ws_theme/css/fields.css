@@ -79,7 +79,7 @@
 
 .prod-sec-bottom{
 	/*padding: 25px 20px 0 15px;*/
-	padding: 25px 0 0 15px;
+	padding: 25px 0 0 25px;
 	background: url(../images/shadow.gif) center top no-repeat;
 }
 
@@ -104,7 +104,7 @@
 
 .node-type-accessory .field-name-field-prod-image .field-item,
 .node-type-shoe .field-name-field-prod-image .field-item{
-	width: 237px;
+	width: 232px;
 }
 
 .node-type-clothing .field-name-field-prod-image .field-item{
@@ -124,6 +124,7 @@
 .prod-content{
 	margin-left: 260px;
 	margin-right: 20px;
+	line-height: 18px;
 }
 
 .jScrollPaneContainer{
@@ -141,6 +142,10 @@
 
 .prod-share{
 	padding: 10px 0;
+}
+
+.ac_input{
+	background: none;
 }
 
 /*//////////////////////////*/

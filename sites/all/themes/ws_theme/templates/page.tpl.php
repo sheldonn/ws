@@ -69,6 +69,8 @@
  */
 ?>
 
+<div id="outer-wrapper">
+<?php print render($page['advert']); ?> 
 <div id="page-wrapper"><div id="page">
 
   <div id="header"><div class="section clearfix">
@@ -169,6 +171,7 @@
     </div>
 </div>
 </div><!-- /#page, /#page-wrapper -->
+</div><!-- /#outer-wrapper -->
 
 
 <?php print render($page['bottom']); ?>
