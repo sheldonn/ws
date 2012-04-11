@@ -4,20 +4,35 @@
  */
 
 .views-view-grid td {
-	border-bottom: 1px solid #DDD;
+	border-bottom: 1px solid #EEE;
+	border-left: 1px solid #EEE;
 }
 
-.views-view-grid td.col-2 {
-	border-left: 1px solid #DDD;
-	border-right: 1px solid #DDD;
+.front .views-view-grid td {
+	border-bottom: 0 none;
+	border-left: 0 none;
+}
+
+.views-view-grid td.col-first{
+	border-left: 0 none;
 }
 
 .views-view-grid .row-last td {
 	border-bottom: 0 none;
 }
 
+.view-brands .views-view-grid{
+	width: 920px;
+	margin: 0 auto;
+}
+
+/**Brands Items**/
+.view-brands.view-display-id-block_1 .views-view-grid td{
+	text-align: center;
+}
+
 /***/
-.view-footwear table{
+.views-view-grid{
 	width: 100%;
 }
 
@@ -27,9 +42,9 @@
 	text-align: center;
 }
 
-.view-footwear div.fivestar-widget .cancel,
-.view-footwear div.fivestar-widget .star,
-.view-footwear div.fivestar-widget-static .star{
+.views-view-grid div.fivestar-widget .cancel,
+.views-view-grid div.fivestar-widget .star,
+.views-view-grid div.fivestar-widget-static .star{
 	float: none;
 	display: inline-block;
 }
@@ -42,7 +57,7 @@
 /** news */
 .view-news .views-row{
 	margin-bottom: 20px;
-	border-bottom: 1px dashed #CCC;
+	border-bottom: 1px dashed #EEE;
 }
 
 .view-news .views-row-last{

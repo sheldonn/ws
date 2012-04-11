@@ -69,13 +69,12 @@ h2.node-title /* Node title */ {
 }
 
 #top-wrap{
-	border-right: 1px solid #CCC;
+	border-right: 1px solid #EEE;
 	width: 695px;
 }
 
 #top-wrap .title{
 	padding: 0 15px;
-	
 }
 
 .title{
@@ -87,9 +86,11 @@ h2.node-title /* Node title */ {
 	height: 400px;
 	text-align: center;
 	line-height: 400px;
-	padding: 10px 0;
+	padding: 0 0 10px 0;
+	margin-top: 10px;
 	position: relative;
 	overflow: hidden;
+	border-top: 1px solid #EEE;
 }
 
 .node-type-clothing #show{
@@ -97,10 +98,10 @@ h2.node-title /* Node title */ {
 }
 
 #show img{
-	max-height: 90%;
-	max-width: 90%;
+	max-height: 95%;
+	max-width: 95%;
 	vertical-align: middle;
-	cursor: crosshair;
+	cursor: move;
 }
 
 #zoom{
@@ -113,7 +114,7 @@ h2.node-title /* Node title */ {
 #zoom a{
 	display: block;
 	float: left;
-	border: 1px solid #CCC;
+	border: 1px solid #EEE;
 	color: transparent;
 	width: 18px;
 	height: 18px;
@@ -154,7 +155,7 @@ h2.node-title /* Node title */ {
 }
 
 #map{
-	border: 1px solid #CCC;
+	border: 1px solid #EEE;
 	width: 450px;
 	height: 300px;
 }

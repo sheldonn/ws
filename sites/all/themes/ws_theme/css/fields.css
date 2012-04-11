@@ -85,7 +85,7 @@
 
 .node-type-accessory .prod-image,
 .node-type-shoe .prod-image{
-	border-top: 1px solid #CCC;
+	border-top: 1px solid #EEE;
 	padding: 0 15px;
 }
 
@@ -161,11 +161,11 @@
 	right: 0;
 	top: 0;
 	height: 100%;
-	background: #CCC;
+	background: #DDD;
 }
 .jScrollPaneDrag {
 	position: absolute;
-	background: #555;
+	background: #666;
 	cursor: pointer;
 	overflow: hidden;
 }

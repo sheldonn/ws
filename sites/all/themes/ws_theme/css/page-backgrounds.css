@@ -11,10 +11,12 @@
 
 
 body {
-	background: #EEE;
+	background: #FFF url(../images/banner.jpg) top center no-repeat;
+	background: #EEE none;
 }
 
 #page-wrapper{
+	background: #FFF;
 	border: 1px solid #DDD;
 	border-radius: 2px;
 
@@ -28,7 +30,7 @@ body {
 }
 
 #header {
-	background: url(../images/glass.png) center top repeat-x;
+	border-bottom: 1px solid #EEE;
 }
 
 #header .section {
@@ -38,15 +40,15 @@ body {
 	background: #035495;
 }
 
+.region-highlighted,
 #main-wrapper {
-	background: #FFF;
 }
 
 #main {
 }
 
 #footer{
-	background: #FFF;
+	border-top: 1px solid #EEE;
 }
 
 .region-footer {

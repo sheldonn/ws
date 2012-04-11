@@ -83,12 +83,13 @@ scripts[] = js/script.js
 ; to your page.tpl.php template.
 
 regions[help]           = Help
-regions[advert]       = Adverts
 regions[sidebar_first]  = First sidebar
 regions[sidebar_second] = Second sidebar
 regions[navigation]     = Navigation bar
 regions[highlighted]    = Highlighted
+regions[content_top]    = Content Top
 regions[content]        = Content
+regions[content_btm]    = Content Bottom
 regions[header]         = Header
 regions[footer]         = Footer
 regions[bottom]         = Page bottom

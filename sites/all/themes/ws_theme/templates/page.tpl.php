@@ -69,8 +69,7 @@
  */
 ?>
 
-<div id="outer-wrapper">
-<?php print render($page['advert']); ?> 
+<div id="outer-wrapper"> 
 <div id="page-wrapper"><div id="page">
 
   <div id="header"><div class="section clearfix">
@@ -135,7 +134,9 @@
         <ul class="action-links"><?php print render($action_links); ?></ul>
       <?php endif; ?>
       <?php if(drupal_is_front_page()) {unset($page['content']['system_main']['default_message']);} ?>
+      <?php print render($page['content_top']); ?>
       <?php print render($page['content']); ?>
+      <?php print render($page['content_btm']); ?>
     </div></div><!-- /.section, /#content -->
 
     <?php if ($page['navigation'] || $main_menu): ?>

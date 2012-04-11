@@ -146,9 +146,14 @@ ul.sf-menu, ul.sf-menu ul{
 	color: #FFF;
 	font-weight: bold;
 	text-transform: uppercase;
+	text-shadow: 0 1px 4px #000;
 	display: block;
 	padding: 0 50px;
 	font-style: italic;
+}
+
+#navigation .sf-menu li li a{
+	text-shadow: none;
 }
 
 #navigation #block-menu-menu-primary-links .menu li a.active-trail{
