@@ -111,6 +111,13 @@ div#site-name /* The name of the website */ {
 
 .region-highlighted {
 	border-bottom: 1px solid #EEE;
+	height: 300px;
+	overflow: hidden;
+	position: relative;
+}
+
+.front .region-highlighted {
+	border-bottom: 0 none;
 }
 
 .region-advert{

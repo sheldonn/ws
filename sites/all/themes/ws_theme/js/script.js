@@ -48,25 +48,21 @@
 				return false;
 			});
 		}
-		
-		/*var $sidebar   = $(".region-advert"),
-			$window    = $(window),
-			offset     = $sidebar.offset(),
-			topPadding = 20;
-	
-		$window.scroll(function() {
-			if ($window.scrollTop() > offset.top) {
-				$sidebar.stop().animate({
-					marginTop: $window.scrollTop() - offset.top + topPadding
-				});
-			} else {
-				$sidebar.stop().animate({
-					marginTop: 0
-				});
-			}
-		});*/
 	});
 	$(window).load(function(){
+		if($('#block-views-banners-block-1').length > 0 || $('#block-views-slider-block-2').length > 0){
+		$('#block-views-banners-block-1 .view-content, #block-views-slider-block-2 .view-content').cycle({
+            fx: 'fade',
+			speed: 1000,
+			pause: true, 
+    		pauseOnPagerHover: true,
+            delay: 2000,
+            pager: '#block-views-banners-block-2 .view-content',
+            pagerAnchorBuilder: function (idx, slide) {
+                return '#block-views-banners-block-2 .view-content .views-row:eq(' + idx + ')';
+            }
+        });
+		}
 		$('.product-class .field-name-body .field-item').jScrollPane({scrollbarWidth: 5, scrollbarMargin: 20});
 		if($('#show').length > 0){
 			$('#show img').draggable();
@@ -114,23 +110,4 @@ function init_map() {
         }
       })(marker, i));
     }
-
-    /*var marker = new google.maps.Marker({
-        position: latlng,
-        map: map,
-        animation: google.maps.Animation.DROP,
-        title: "Western Sports Ltd."
-    });
-
-    function address() {
-        var infowindow = new google.maps.InfoWindow({
-            content: contentString
-        });
-        infowindow.open(map, marker);
-
-        google.maps.event.addListener(marker, 'click', function () {
-            infowindow.open(map, marker);
-        });
-    }*/
-    //setTimeout(address, 800);
 }

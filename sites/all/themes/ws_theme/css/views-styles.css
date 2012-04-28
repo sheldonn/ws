@@ -65,3 +65,28 @@
 .view-news .views-row-last{
 	border-bottom: 0 none;
 }
+
+/** slider */
+#block-views-banners-block-1 .view-content .views-field-field-slider-image{
+	line-height: 0;
+}
+
+#block-views-banners-block-2{
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	z-index: 100;
+	margin: 0;
+}
+
+#block-views-banners-block-2 .view-content .views-row{
+	line-height: 0;
+	float: left;
+	margin-left: 10px;
+	cursor: pointer;
+	opacity: 0.5;
+}
+
+#block-views-banners-block-2 .view-content .views-row.activeSlide{
+	opacity: 1;
+}
