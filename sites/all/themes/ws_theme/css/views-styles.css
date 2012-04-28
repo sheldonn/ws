@@ -4,8 +4,8 @@
  */
 
 .views-view-grid td {
-	border-bottom: 1px solid #EEE;
-	border-left: 1px solid #EEE;
+	/*border-bottom: 1px solid #EEE;
+	border-left: 1px solid #EEE;*/
 }
 
 .front .views-view-grid td {
@@ -36,10 +36,12 @@
 	width: 100%;
 }
 
+.view-product-face table td,
 .view-footwear table td{
 	width: 33%;
 	vertical-align: middle;
 	text-align: center;
+	padding-bottom: 25px;
 }
 
 .views-view-grid div.fivestar-widget .cancel,

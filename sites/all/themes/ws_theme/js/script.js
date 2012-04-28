@@ -17,8 +17,8 @@
 				}else{
 					img.css({
 						"width" : "auto",
-						"max-width" : "90%",
-						"max-height" : "90%",
+						"max-width" : "95%",
+						"max-height" : "95%",
 						'top': 0,
 						'left': 0
 					});
