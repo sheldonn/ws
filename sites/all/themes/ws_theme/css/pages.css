@@ -126,6 +126,11 @@ div#site-name /* The name of the website */ {
 	overflow: hidden;
 }
 
+.region-content-btm{
+	padding: 20px 0;
+	border-top: 1px solid #EEE;
+}
+
 .breadcrumb /* The path to the current page in the form of a list of links */ {
 	padding: 10px 15px 0 15px; /* Undo system.css */
 	line-height: 30px;
